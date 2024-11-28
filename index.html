@@ -5,15 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        img{
-            height:200px;
-            width:200px;
-        }
-        /* }
-         @media  screen and (min-width:0px) and (max-width:425px){
+     
+        
+        
+         /* @media  screen and (min-width:0px) and (max-width:425px){
             .c2,.c3{
                 display:none;
             }
+           
         }
         @media  screen and (min-width:426px) and (max-width:768px){
             .c3,.c1{
@@ -24,20 +23,110 @@
             .c2,.c1{
                 display:none;
             }
-        }  */
+
+        
+            
+        }   */
+           img{
+            height:250px;
+            width:295px; 
+           }
+           .c{
+                display: flex;
+                flex-wrap: wrap;
+                gap:10px;
+              
+                justify-content: center; 
+                display: flex;
+            
+             }
+       @media screen and (orientation:landscape){
+        body{
+            background-color: blueviolet;
+        }
+    }
+            .c{
+                border: 2px solid blue;
+                padding:20px;
+                background-color: red;
+
+            }
+         
+            @media screen and (orientation:portrait){
+        body{
+            background-color: lightcoral;
+        }
+             .c{
+                border: 2px solid red;
+                padding:20px;
+                background-color: rgb(255, 0, 179);
+             
+                align-items: center;
+
+             }
+             .c{
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction:column;
+                justify-content: center; 
+                display: flex;
+            
+             }
+            }
+            
+             
+             .c div{
+                border: 3px solid rgb(37, 7, 207);
+                
+                
+                
+             }
+          
+           
+            .c1{
+                width: 300px;
+               justify-content: center;
+            }
+        
+        
 
     </style>
 </head>
 <body>
+    <h1 style="text-align: center;">FLEX LAYOUT WITH MEDIA QUERIES</h1>
+    <div class="c">
     <div class="c1">
-        <img src="https://imgs.search.brave.com/IGakjXe3A7IPE1rBmgPSFdVPfjiez3Fh4IReFBH4Ffs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jb250/ZW50LnR1cGFraS5j/b20vdHdkYXRhLzIw/MTgvMDExOC9uZXdz/L0ZpcnN0LUxvb2st/LUFkaXZpLVNlc2gt/QXMtR3VkYWNoYXJp/LS0xNTE1ODU5NTg2/LTE5NzQuanBn"/>
+        <div>
+            <img class="gc" src="https://imgs.search.brave.com/IGakjXe3A7IPE1rBmgPSFdVPfjiez3Fh4IReFBH4Ffs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jb250/ZW50LnR1cGFraS5j/b20vdHdkYXRhLzIw/MTgvMDExOC9uZXdz/L0ZpcnN0LUxvb2st/LUFkaXZpLVNlc2gt/QXMtR3VkYWNoYXJp/LS0xNTE1ODU5NTg2/LTE5NzQuanBn">
     </div>
-    <div class="c2">
-        <img src="https://imgs.search.brave.com/VySXZXZZFaKmUUxxlb8qb5P39Fi1YtAcSEUI-J3XZ7M/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDEzNjc3/MTE4LmpwZw"/>
+    <div style="height:100px;overflow-y: scroll; background-color: white;">
+        <P >Sesh was born in Hyderabad and was raised in Berkeley, California.[2] He made his film debut in 2010 as a lead actor and director with the romance Karma and gained recognition for his antagonistic roles in Panjaa (2011), Balupu (2013), and Baahubali: The Beginning (2015). Sesh then established himself as a leading man by starring in commercial and critical successes such as Dongaata (2015), Kshanam (2016), Ami Thumi (2017), Goodachari (2018), Evaru (2019), Major (2022), and HIT: The Second Case (2022).</P>
+       </div>
+       <div class="p" style="text-align: center;background-color: white;">
+    <p>GUDACHARI</p>
     </div>
-    <div class="c3">
-        <img src="https://imgs.search.brave.com/HeQmN3KttNesQFOO9R4gxSjDSEYNVYDdrp38yvcoBp4/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuZmlsbWliZWF0/LmNvbS9pbWcvcG9w/Y29ybi9tb3ZpZV9w/b3N0ZXJzL2toYWtl/ZS0yMDE3MTExNzE0/MjU0Mi0xNjIxNC5q/cGc"/>
     </div>
-    
+    <div class="c1">
+        <div>
+        <img class="og" src="https://imgs.search.brave.com/VySXZXZZFaKmUUxxlb8qb5P39Fi1YtAcSEUI-J3XZ7M/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDEzNjc3/MTE4LmpwZw" height="250" width="250"/>
+        </div>
+        <div style="height:100px; overflow-y: scroll; background-color: white;">
+        <P>Konidala Pawan Kalyan[5] (born Konidala Kalyan Kumar;[8] 2 September 1971)[2] is an Indian politician, actor and philanthropist serving as the 10th Deputy Chief Minister of Andhra Pradesh since June 2024. He is also the Minister of Panchayat Raj, Rural Development and Rural Water Supply; Environment, Forests, Science and Technology in the Government of Andhra Pradesh and an MLA representing the Pitapuram constituency.[3] He is the founder and president of the Janasena Party.</P>
+    </div>
+    <div class="p" style="text-align: center;background-color: white;">
+        <p>OG</p>
+        </div>
+        </div>
+    <div class="c1">
+        <div>
+       <img class="kk" src="https://imgs.search.brave.com/HeQmN3KttNesQFOO9R4gxSjDSEYNVYDdrp38yvcoBp4/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuZmlsbWliZWF0/LmNvbS9pbWcvcG9w/Y29ybi9tb3ZpZV9w/b3N0ZXJzL2toYWtl/ZS0yMDE3MTExNzE0/MjU0Mi0xNjIxNC5q/cGc" height="250" width="250"/>
+        <div style=" height:100px; overflow-y: scroll; background-color: white;">
+        <p>The younger brother of the actor Suriya and son of actor Sivakumar, Karthi initially joined Mani Ratnam as an assistant director and made his acting debut with Paruthiveeran (2007), which earned him several accolades including the Filmfare Award for Best Actor. He went on to star in hit films like Paiyaa (2010), Naan Mahaan Alla (2010), Siruthai (2011), Madras (2014), Thozha (2016), Theeran Adhigaaram Ondru (2017), Kadaikutty Singam (2018), Kaithi (2019), Thambi (2019), Ponniyin Selvan: I (2022), Sardar (2022) and Ponniyin Selvan: II (2023), thus establishing himself as a commercially successful leading actor of Tamil cinema.[2]</p>
+    </div>
+    <div class="p" style="text-align: center;background-color:white;">
+        <p>KHAKI</p>
+        </div>
+    </div>
+</div>
 </body>
 </html>

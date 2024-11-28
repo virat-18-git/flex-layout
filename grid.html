@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .gd{
+            background-color: green;
+            padding:25px;
+            /* height:250px; */
+            display:grid;
+            
+         grid-template-columns:repeat(auto-fill minmax(250px,250px));
+         grid-template-rows: 100px 100px 100px ;
+         row-gap:10px ;
+         column-gap: 10px;
+         justify-content: center;
+        }
+        .item1{
+            background-color: aqua;
+            /* grid-column-start: 1;
+            grid-column-end: 5; */
+            grid-column-start: 1;
+            grid-column-end: 5;
+          
+            
+         
+          
+        }
+        .item2{
+            background-color: red;
+            grid-row-start: 2;
+            grid-row-end: 4;
+           
+           
+          
+        }
+        .item3{
+            background-color: orange;
+           
+        }
+        .item4{
+            background-color:yellow ;
+           
+        }
+        .item5{
+            background-color:blue ;
+        }
+        .item6{
+            background-color:violet ;
+            grid-column-start: 1;
+            grid-column-end: 5;
+           
+        }
+
+    </style>
+</head>
+<body>
+    <div class="gd">
+    <div class="item1">aaa</div>
+    <div  class="item2">ddd</div>
+    <div  class="item3">fff</div>
+    <div  class="item4">sss</div>
+    <div  class="item5">ggg</div>
+    <div  class="item6">hhh</div>
+    <!-- <div class="item1">aaa</div>
+    <div  class="item2">ddd</div>
+    <div  class="item3">fff</div>
+    <div  class="item4">sss</div> -->
+    
+</div>
+    
+</body>
+</html>
